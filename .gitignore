@@ -1,0 +1,9 @@
+# === 大媒体文件（GitHub 单文件上限 100MB，本项目视频+音频共 ~5.1G，直接排除） ===
+downloads/**/*.mp4
+downloads/**/*.wav
+
+# === 本地工作记忆（含个人路径/链接，不入库） ===
+.workbuddy/
+
+# === macOS ===
+.DS_Store
