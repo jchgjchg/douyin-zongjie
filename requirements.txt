@@ -1,0 +1,14 @@
+# 抖音视频转写与分析流水线依赖
+# 安装: pip install -r requirements.txt
+
+# 1) 抓流（Playwright 驱动真实浏览器拦截视频直链）
+playwright>=1.40
+
+# 2) 转写后端（二选一，transcribe.py 会自动选）
+#    Apple Silicon 用户（推荐，GPU 加速、离线）:
+mlx-whisper>=0.1; platform_system == "Darwin" and platform_machine == "arm64"
+#    其他平台用户:
+#    pip install faster-whisper
+
+# 说明: mux.py / clean.py / analyze.py 仅用 Python 标准库，无需额外依赖。
+#       analyze.py 走 OpenAI 兼容 HTTP 接口（urllib），也无需第三方库。
