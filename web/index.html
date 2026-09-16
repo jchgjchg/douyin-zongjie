@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>抖音转写分析平台</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --ink:#1f2329; --sub:#6b7280;
+    --line:#e5e7eb; --brand:#fe2c55; --brand2:#25b0f5; --ok:#16a34a;
+    --warn:#d97706; --err:#dc2626; --code:#0f172a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:14px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+       background:var(--bg);color:var(--ink)}
+  header{background:linear-gradient(90deg,var(--brand),#ff5c7c);color:#fff;
+         padding:14px 22px;display:flex;align-items:center;gap:12px}
+  header h1{font-size:17px;margin:0;font-weight:700}
+  header .tag{font-size:12px;opacity:.9}
+  .wrap{display:grid;grid-template-columns:300px 1fr;gap:16px;padding:16px;max-width:1280px;margin:0 auto}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+  h2{font-size:14px;margin:0 0 12px;color:var(--sub);font-weight:600;letter-spacing:.3px}
+  textarea,input[type=text]{width:100%;border:1px solid var(--line);border-radius:8px;
+         padding:10px;font:13px/1.5 ui-monospace,Menlo,Consolas,monospace;resize:vertical}
+  textarea{min-height:70px}
+  label{display:block;font-size:12px;color:var(--sub);margin:10px 0 5px}
+  button{cursor:pointer;border:0;border-radius:8px;padding:10px 16px;font-size:14px;font-weight:600}
+  .btn-run{background:var(--brand);color:#fff;width:100%;margin-top:6px}
+  .btn-run:disabled{opacity:.5;cursor:not-allowed}
+  .status{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+  .pill{font-size:11px;padding:3px 8px;border-radius:999px;border:1px solid var(--line)}
+  .pill.ok{border-color:var(--ok);color:var(--ok);background:#f0fdf4}
+  .pill.bad{border-color:var(--err);color:var(--err);background:#fef2f2}
+  .pill.info{border-color:var(--brand2);color:var(--brand2);background:#f0f9ff}
+  #log{background:#0f172a;color:#e2e8f0;font:12px/1.5 ui-monospace,Menlo,Consolas,monospace;
+       border-radius:8px;padding:12px;height:260px;overflow:auto;white-space:pre-wrap;word-break:break-all}
+  .reports li{list-style:none;padding:8px 10px;border:1px solid var(--line);border-radius:8px;
+              margin-bottom:8px;cursor:pointer;font-size:13px;display:flex;justify-content:space-between;gap:8px}
+  .reports li:hover{border-color:var(--brand2);background:#f0f9ff}
+  .reports .t{color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .reports .d{color:var(--sub);font-size:11px;white-space:nowrap}
+  .reports{margin:0;padding:0;max-height:560px;overflow:auto}
+  .report-body{margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:12px;
+               padding:22px;display:none}
+  .report-body.show{display:block}
+  .report-body h1{font-size:20px;border-bottom:2px solid var(--brand);padding-bottom:8px}
+  .report-body h2{color:var(--ink);font-size:16px;margin-top:20px}
+  .report-body h3{font-size:14px;margin-top:14px}
+  .report-body code{background:#f1f5f9;padding:2px 5px;border-radius:4px;font-size:12px}
+  .report-body pre{background:#0f172a;color:#e2e8f0;padding:12px;border-radius:8px;overflow:auto}
+  .report-body table{border-collapse:collapse;width:100%;margin:10px 0;font-size:13px}
+  .report-body th,.report-body td{border:1px solid var(--line);padding:6px 9px;text-align:left}
+  .report-body th{background:#f8fafc}
+  .report-body ul,.report-body ol{padding-left:22px}
+  .report-body blockquote{margin:10px 0;padding:6px 12px;border-left:3px solid var(--brand2);
+               background:#f0f9ff;color:var(--sub)}
+  .hint{font-size:12px;color:var(--sub);margin-top:8px}
+  .err-box{background:#fef2f2;border:1px solid var(--err);color:var(--err);
+           padding:10px;border-radius:8px;margin-top:10px;display:none}
+  .err-box.show{display:block}
+  @media(max-width:900px){.wrap{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎬 抖音转写分析平台</h1>
+  <span class="tag">贴链接 → 抓流 → 转写 → AI 报告</span>
+</header>
+
+<div class="wrap">
+  <!-- 左栏：操作 + 报告库 -->
+  <div>
+    <div class="card">
+      <h2>新建分析</h2>
+      <label>抖音链接（短链/长链/视频页均可）</label>
+      <textarea id="url" placeholder="https://v.douyin.com/XXXX/"></textarea>
+      <label>主题名（可选，用于文件名与报告标题）</label>
+      <input type="text" id="name" placeholder="如：带货选题方法论">
+      <button class="btn-run" id="run">▶ 运行流水线</button>
+      <div class="hint">抓取依赖本地 Chrome + 抖音 cookie；生成报告依赖 OPENAI_API_KEY。</div>
+      <div class="status" id="status"></div>
+    </div>
+
+    <div class="card" style="margin-top:16px">
+      <h2>报告库（<span id="rcount">0</span>）</h2>
+      <ul class="reports" id="reports"></ul>
+    </div>
+  </div>
+
+  <!-- 右栏：日志 + 报告 -->
+  <div>
+    <div class="card">
+      <h2>实时日志</h2>
+      <div id="log">等待运行…</div>
+      <div class="err-box" id="err"></div>
+    </div>
+    <div class="report-body" id="report"></div>
+  </div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+
+function fmtDate(t){ const d=new Date(t*1000);
+  return `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`; }
+
+async function loadStatus(){
+  try{
+    const r = await fetch('/api/status'); const s = await r.json();
+    const el = $('#status'); el.innerHTML='';
+    const add=(cls,txt)=>{const p=document.createElement('span');p.className='pill '+cls;p.textContent=txt;el.appendChild(p);};
+    add(s.has_key?'ok':'bad','LLM Key '+(s.has_key?'已配置':'缺失'));
+    add(s.has_cookies?'ok':'bad','Cookie '+(s.has_cookies?'已就绪':'缺失'));
+    add(s.ffmpeg?'ok':'bad','ffmpeg '+(s.ffmpeg?'OK':'缺失'));
+    add('info', '模型 '+(s.model||'-'));
+  }catch(e){}
+}
+
+async function loadReports(){
+  try{
+    const r = await fetch('/api/reports'); const ls = await r.json();
+    $('#rcount').textContent = ls.length;
+    const ul = $('#reports'); ul.innerHTML='';
+    ls.forEach(it=>{
+      const li=document.createElement('li');
+      li.innerHTML=`<span class="t">${it.title}</span><span class="d">${fmtDate(it.mtime)}</span>`;
+      li.onclick=()=>viewReport(it.file);
+      ul.appendChild(li);
+    });
+  }catch(e){}
+}
+
+async function viewReport(file){
+  const r = await fetch('/api/report/'+encodeURIComponent(file));
+  const d = await r.json();
+  const box=$('#report');
+  box.innerHTML=`<h1>${d.title}</h1>`+d.html;
+  box.classList.add('show');
+  box.scrollIntoView({behavior:'smooth'});
+}
+
+function runPipeline(){
+  const url=$('#url').value.trim();
+  if(!url){ alert('请先粘贴抖音链接'); return; }
+  const name=$('#name').value.trim();
+  const btn=$('#run'); btn.disabled=true; btn.textContent='运行中…';
+  const log=$('#log'); log.textContent=''; $('#err').classList.remove('show');
+  $('#report').classList.remove('show'); $('#report').innerHTML='';
+
+  fetch('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({url,name})})
+    .then(r=>r.json()).then(d=>{
+      if(d.error){ err(d.error); btn.disabled=false; btn.textContent='▶ 运行流水线'; return; }
+      const es=new EventSource('/api/stream/'+d.job_id);
+      es.onmessage=ev=>{
+        const m=JSON.parse(ev.data);
+        if(m.type==='log'){ log.textContent+=m.line+'\n'; log.scrollTop=log.scrollHeight; }
+        else if(m.type==='report'){
+          es.close();
+          const box=$('#report'); box.innerHTML=`<h1>${m.name.replace('分析报告_','').replace('.md','')}</h1>`+m.html;
+          box.classList.add('show'); box.scrollIntoView({behavior:'smooth'});
+          btn.disabled=false; btn.textContent='▶ 运行流水线';
+          loadReports();
+        }
+        else if(m.type==='error'){ es.close(); err(m.msg); btn.disabled=false; btn.textContent='▶ 运行流水线'; }
+        else if(m.type==='end'){ es.close(); }
+      };
+      es.onerror=()=>{ es.close(); err('连接中断，请查看日志'); btn.disabled=false; btn.textContent='▶ 运行流水线'; };
+    })
+    .catch(e=>{ err('请求失败: '+e); btn.disabled=false; btn.textContent='▶ 运行流水线'; });
+}
+
+function err(msg){ const e=$('#err'); e.textContent='⚠ '+msg; e.classList.add('show'); }
+
+$('#run').onclick=runPipeline;
+loadStatus(); loadReports();
+</script>
+</body>
+</html>

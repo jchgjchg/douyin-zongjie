@@ -16,8 +16,12 @@ douyin-zongjie/
 │   ├── transcribe.py     # ③ 转写：whisper（mlx/faster）生成 SRT + 文本稿
 │   ├── clean.py          # ④ 清洗：修正专名/口音误写
 │   └── analyze.py        # ⑤ 分析：OpenAI 兼容接口写结构化报告
+├── web/                 # 网页界面（Flask）：贴链接 → 实时日志 → 渲染报告 + 报告库浏览
+│   ├── app.py           #   后端：/api/run 启流水线、/api/stream SSE 推日志、/api/reports 列库
+│   ├── index.html       #   前端单页 UI
+│   └── run_web.sh       #   启动脚本
 ├── run.sh               # 一条命令跑完 ①~⑤
-├── requirements.txt     # Python 依赖
+├── requirements.txt     # Python 依赖（含 flask / markdown）
 ├── analysis/            # 86 份分析报告（样例产出，按主题分组见下）
 └── downloads/           # 各视频的字幕稿（transcript.txt / .srt / transcript_clean.txt）
 ```
@@ -68,6 +72,30 @@ bash run.sh "https://v.douyin.com/XXXX/" downloads/01_示例 示例
 ```
 
 跑完会在 `downloads/01_示例/` 生成视频与字幕，并在 `analysis/分析报告_示例.md` 生成报告。
+
+---
+
+## Web 界面（最省事的方式）
+
+不想敲命令行？`web/` 提供了一个本地网页：粘贴抖音链接 → 点「运行」→ 实时看日志 → 自动渲染分析报告；左侧还能浏览仓库里已有的全部报告。
+
+```bash
+cd douyin-zongjie
+pip install flask markdown        # Web 专属依赖（已并入 requirements.txt）
+
+# 配置好模型（同上文 ⑤）
+export OPENAI_API_KEY=sk-xxxx
+export OPENAI_BASE_URL=https://api.openai.com/v1
+export OPENAI_MODEL=gpt-4o-mini
+
+# 启动（默认 http://127.0.0.1:8000）
+bash web/run_web.sh
+# 或自定义端口： PORT=9000 bash web/run_web.sh
+```
+
+打开浏览器访问 `http://127.0.0.1:8000` 即可。页面顶部「状态」会显示 LLM Key / Cookie / ffmpeg 是否就绪，缺哪个补哪个。
+
+> 注意：Web 界面与命令行共用同一套 `scripts/`，因此**同样需要** ffmpeg、Chrome（或 playwright chromium）、抖音 cookie、以及 `OPENAI_API_KEY`。流水线中的「抓流」依赖本地真实浏览器与登录态，长时间不用抖音后 cookie 可能过期，页面会报错——重新导出一次 cookie 即可。
 
 ---
 

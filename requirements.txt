@@ -10,5 +10,9 @@ mlx-whisper>=0.1; platform_system == "Darwin" and platform_machine == "arm64"
 #    其他平台用户:
 #    pip install faster-whisper
 
+# 3) Web 界面（可选，web/app.py 提供网页版操作 + 报告库浏览）
+flask>=3.0
+markdown>=3.5
+
 # 说明: mux.py / clean.py / analyze.py 仅用 Python 标准库，无需额外依赖。
 #       analyze.py 走 OpenAI 兼容 HTTP 接口（urllib），也无需第三方库。
