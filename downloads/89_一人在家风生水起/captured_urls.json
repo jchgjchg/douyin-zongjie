@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/uuu_265.mp4",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://www.douyin.com/aweme/v1/web/aweme/detail/?device_platform=webapp&aid=6383&channel=channel_pc_web&aweme_id=7684315653599153459&request_source=600&origin_type=video_page&update_version_code=170400&pc_client_type=1&pc_libra_divert=Mac&support_h265=1&support_dash=0&cpu_core_num=14&version_code=190500&version_name=19.5.0&cookie_enabled=true&screen_width=1280&screen_height=800&browser_language=zh-CN&browser_platform=MacIntel&browser_name=Chrome&browser_version=152.0.0.0&browser_online=true&engine_name=Blink&engine_version=152.0.0.0&os_name=Mac%20OS&os_version=10.15.7&device_memory=32&platform=PC&downlink=10&effective_type=4g&round_trip_time=50&webid=7686022389978039858&uifid=a9feeece8bad9a3ec4489a53034d3a9cea9eedcaf883b88008ea0decba55736a1c8c949246ac7f86dfb8513340f3ea242fb9abc50419074a9abf88f9932fb190bd298c08815023d5e1cc563b518f58c3496486a3557b3808cbaa2f19ead78a1dd146b5c62c3a37644c05129df0bbb33bd4dbafe394c98e9c8bf5183595940a953c350ef0d6a87640037ae0cdf9171fb6112a10cab05c7333dc685848b1706486fa75007e221513a8e353b1f485e6429281852213886a097f5524eee2c284b872&a_bogus=E60VgeUJOo5Rcd%2FGmKrzH7xUH7DANP8yxai%2FbtHP9xPeLh0Y-RP3KcCAbxogsFnfjuBwh91HEftlbExcZ4X0p9rpumkfu2XRntVI9g6o0qNda0vsDrShCumFwwsYMb4LaQ9JiIXRls0wgxOlVH5iAdAGt5zjRYYpSqBSd2z97EWgDSSkwo-TOCDgEyTqlf%3D%3D&verifyFp=verify_mtrbrkkz_TU1Bvkfy_sz4I_4j8w_8RFA_Z6Q827QPWDVs&fp=verify_mtrbrkkz_TU1Bvkfy_sz4I_4j8w_8RFA_Z6Q827QPWDVs&timestamp=1789541550&x-secsdk-web-signature=d0acd08c29a64504813f7fb7dd442a06",
+    "ct": "application/json",
+    "status": 200
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/b022558e03d09d3728d29ee02280bd28/6aab8ebe/video/tos/cn/tos-cn-v-0051/441e8114ccef45c690be426667240696/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=126&bt=126&cs=0&mime_type=video_mp4&qs=0&rc=NzNpO2U8ODRlaGQ3PDxkOUBpanlqbXc5cnI1ZDMzNDYzM0BeMWIxXzYwMS5hX180Xi01YSNhXi9wMmRrbGZhLS1kMC9zcw%3D%3D&btag=c0000e00028000&cquery=100o_100w&dy_q=1789541551&l=20260916145230F3255A5FB7A6675F5C86",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/b022558e03d09d3728d29ee02280bd28/6aab8ebe/video/tos/cn/tos-cn-v-0051/441e8114ccef45c690be426667240696/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=126&bt=126&cs=0&mime_type=video_mp4&qs=0&rc=NzNpO2U8ODRlaGQ3PDxkOUBpanlqbXc5cnI1ZDMzNDYzM0BeMWIxXzYwMS5hX180Xi01YSNhXi9wMmRrbGZhLS1kMC9zcw%3D%3D&btag=c0000e00028000&cquery=100o_100w&dy_q=1789541551&l=20260916145230F3255A5FB7A6675F5C86",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/0a5c834dce5906ce1cc85c9660617339/6aab8ebe/video/tos/cn/tos-cn-v-0051/oMGDFBoyCD7AfCxnIAAMEfbiCJpjqgAY7AKNgr/media-video-avc1/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=1127&bt=1127&cs=0&ds=6&mime_type=video_mp4&qs=12&rc=ODg6NGk8Zzs6OzlkaTpkZUBpanlqbXc5cnI1ZDMzNDYzM0AwYjMuLzIvNS8xYzNiNjUzYSNhXi9wMmRrbGZhLS1kMC9zcw%3D%3D&btag=c0000e00028000&cquery=100w_100o&dy_q=1789541551&l=20260916145230F3255A5FB7A6675F5C86",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/0a5c834dce5906ce1cc85c9660617339/6aab8ebe/video/tos/cn/tos-cn-v-0051/oMGDFBoyCD7AfCxnIAAMEfbiCJpjqgAY7AKNgr/media-video-avc1/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=1127&bt=1127&cs=0&ds=6&mime_type=video_mp4&qs=12&rc=ODg6NGk8Zzs6OzlkaTpkZUBpanlqbXc5cnI1ZDMzNDYzM0AwYjMuLzIvNS8xYzNiNjUzYSNhXi9wMmRrbGZhLS1kMC9zcw%3D%3D&btag=c0000e00028000&cquery=100w_100o&dy_q=1789541551&l=20260916145230F3255A5FB7A6675F5C86",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/b022558e03d09d3728d29ee02280bd28/6aab8ebe/video/tos/cn/tos-cn-v-0051/441e8114ccef45c690be426667240696/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=126&bt=126&cs=0&mime_type=video_mp4&qs=0&rc=NzNpO2U8ODRlaGQ3PDxkOUBpanlqbXc5cnI1ZDMzNDYzM0BeMWIxXzYwMS5hX180Xi01YSNhXi9wMmRrbGZhLS1kMC9zcw%3D%3D&btag=c0000e00028000&cquery=100o_100w&dy_q=1789541551&l=20260916145230F3255A5FB7A6675F5C86",
+    "ct": "video/mp4",
+    "status": 206
+  }
+]
