@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/uuu_265.mp4",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://www.douyin.com/aweme/v1/web/aweme/detail/?device_platform=webapp&aid=6383&channel=channel_pc_web&aweme_id=7658279489474747898&request_source=600&origin_type=video_page&update_version_code=170400&pc_client_type=1&pc_libra_divert=Mac&support_h265=1&support_dash=0&cpu_core_num=14&version_code=190500&version_name=19.5.0&cookie_enabled=true&screen_width=1280&screen_height=800&browser_language=zh-CN&browser_platform=MacIntel&browser_name=Chrome&browser_version=152.0.0.0&browser_online=true&engine_name=Blink&engine_version=152.0.0.0&os_name=Mac%20OS&os_version=10.15.7&device_memory=32&platform=PC&downlink=1.7&effective_type=4g&round_trip_time=100&webid=7686091902399710729&uifid=a9feeece8bad9a3ec4489a53034d3a9cea9eedcaf883b88008ea0decba55736a1c8c949246ac7f86dfb8513340f3ea242fb9abc50419074a9abf88f9932fb190bd298c08815023d5e1cc563b518f58c3496486a3557b3808cbaa2f19ead78a1dd146b5c62c3a37644c05129df0bbb33bd4dbafe394c98e9c8bf5183595940a953c350ef0d6a87640037ae0cdf9171fb6112a10cab05c7333dc685848b17064867297235f3ff79c7ea362be1a5593250bec765e1d5ef8342649e7493a970f0fb7&a_bogus=Qj4VDqSiDq5RFd%2FSucazHnxlkA9ArBuyzlixWuITHNzLLqlTZWN-QxCVnxuX4zOW6bpkhFI7xfelYEncNsXzpCnkLmkvuszjnT5I9X8LZqqpPMksLNyzCz8FLwBTMRTLlA97iAv5UsMy6EQlVN5iAp-ay5zJmYmpWHpSdMYytEWXDSSkko-sOegpE6kSUlxU&verifyFp=verify_mtrbrkkz_TU1Bvkfy_sz4I_4j8w_8RFA_Z6Q827QPWDVs&fp=verify_mtrbrkkz_TU1Bvkfy_sz4I_4j8w_8RFA_Z6Q827QPWDVs&timestamp=1789557734&x-secsdk-web-signature=f6028f4513fa74e0e78feddc7da43bec",
+    "ct": "application/json",
+    "status": 200
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/e1f44a0a64484869d20913e05010e203/6aaaa651/video/tos/cn/tos-cn-ve-15c000-ce/oQ9bEUnehAT9PlBsEBwivINkIf7g15iBtQX3HA/?a=6383&ch=26&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C3&cv=1&br=210&bt=210&cs=0&ds=3&ft=4TMWc6Dnppft3dL..s~.C_bAja-CInAKuApc6B0-Y~tCVYpHDDyjFbvH~CgqTusZ.&mime_type=video_mp4&qs=1&rc=ZmYzOzU1aWZlZGk2NTc2aEBpM2k1dXE5cnZ0PDMzbGkzNUAtYWA2XmBfNWAxYzAvX19jYSNebWA0MmRzazBhLS1kLTRzcw%3D%3D&btag=c0000e00020000&cquery=100w_100B_100x_100z_100o&dy_q=1789557734&feature_id=37f92ebd2877ae8e7eba995d406c5150&l=202609161922145F99D7746F8FF977927C&__vid=7658279489474747898",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/ea437851498925982caea4a1363bc99f/6aaaa651/video/tos/cn/tos-cn-ve-15c000-ce/o0P1yNXgCAL3QeicwIiUIznB5ftvsh9iEABNHE/?a=6383&ch=26&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C3&cv=1&br=300&bt=300&cs=0&ds=4&ft=4TMWc6Dnppft3dL..s~.C_bAja-CInAKuApc6B0-Y~tCVYpHDDyjFbvH~CgqTusZ.&mime_type=video_mp4&qs=0&rc=ZjYzODk1OzY5OTU0M2hoaEBpM2k1dXE5cnZ0PDMzbGkzNUBjNDZhNi8uNS4xXzNeLzZgYSNebWA0MmRzazBhLS1kLTRzcw%3D%3D&btag=c0000e00020000&cquery=100w_100B_100x_100z_100o&dy_q=1789557734&feature_id=37f92ebd2877ae8e7eba995d406c5150&l=202609161922145F99D7746F8FF977927C&testst=1789557739808",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://lf6-effectcdn-tos.byteeffecttos.com/obj/ies.fe.effect/73a925431aac3cf511e0fb73158c9be8.mp4",
+    "ct": "video/mp4",
+    "status": 200
+  },
+  {
+    "url": "https://lf3-effectcdn-tos.byteeffecttos.com/obj/ies.fe.effect/c6b2f994c3b532d088af631d1b6c09e3.mp4",
+    "ct": "video/mp4",
+    "status": 200
+  },
+  {
+    "url": "https://lf6-effectcdn-tos.byteeffecttos.com/obj/ies.fe.effect/73a925431aac3cf511e0fb73158c9be8.mp4",
+    "ct": "video/mp4",
+    "status": 200
+  },
+  {
+    "url": "https://lf3-effectcdn-tos.byteeffecttos.com/obj/ies.fe.effect/c6b2f994c3b532d088af631d1b6c09e3.mp4",
+    "ct": "video/mp4",
+    "status": 200
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/ea437851498925982caea4a1363bc99f/6aaaa651/video/tos/cn/tos-cn-ve-15c000-ce/o0P1yNXgCAL3QeicwIiUIznB5ftvsh9iEABNHE/?a=6383&ch=26&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C3&cv=1&br=300&bt=300&cs=0&ds=4&ft=4TMWc6Dnppft3dL..s~.C_bAja-CInAKuApc6B0-Y~tCVYpHDDyjFbvH~CgqTusZ.&mime_type=video_mp4&qs=0&rc=ZjYzODk1OzY5OTU0M2hoaEBpM2k1dXE5cnZ0PDMzbGkzNUBjNDZhNi8uNS4xXzNeLzZgYSNebWA0MmRzazBhLS1kLTRzcw%3D%3D&btag=c0000e00020000&cquery=100w_100B_100x_100z_100o&dy_q=1789557734&feature_id=37f92ebd2877ae8e7eba995d406c5150&l=202609161922145F99D7746F8FF977927C&testst=1789557745036",
+    "ct": "video/mp4",
+    "status": 206
+  }
+]

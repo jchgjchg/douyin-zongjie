@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://www.douyin.com/aweme/v1/web/aweme/detail/?device_platform=webapp&aid=6383&channel=channel_pc_web&aweme_id=7680493446880087339&request_source=600&origin_type=video_page&update_version_code=170400&pc_client_type=1&pc_libra_divert=Mac&support_h265=1&support_dash=0&cpu_core_num=14&version_code=190500&version_name=19.5.0&cookie_enabled=true&screen_width=1280&screen_height=800&browser_language=zh-CN&browser_platform=MacIntel&browser_name=Chrome&browser_version=152.0.0.0&browser_online=true&engine_name=Blink&engine_version=152.0.0.0&os_name=Mac%20OS&os_version=10.15.7&device_memory=32&platform=PC&downlink=1.5&effective_type=3g&round_trip_time=500&webid=7686091349436171803&uifid=a9feeece8bad9a3ec4489a53034d3a9cea9eedcaf883b88008ea0decba55736a1c8c949246ac7f86dfb8513340f3ea242fb9abc50419074a9abf88f9932fb190bd298c08815023d5e1cc563b518f58c3496486a3557b3808cbaa2f19ead78a1dd146b5c62c3a37644c05129df0bbb33bd4dbafe394c98e9c8bf5183595940a953c350ef0d6a87640037ae0cdf9171fb6112a10cab05c7333dc685848b1706486a370ce69aa490bb4dd870bef33c2a656d4515e64998ba2ba010f931ecfd97022&verifyFp=verify_mtrbrkkz_TU1Bvkfy_sz4I_4j8w_8RFA_Z6Q827QPWDVs&fp=verify_mtrbrkkz_TU1Bvkfy_sz4I_4j8w_8RFA_Z6Q827QPWDVs&a_bogus=Ov0RhzSwOqQbPdMbmOr0H7-loqn%2FNPuy7aTxRc1TtOO8LZUTSSP1KnavnxuX4zKWfYpzhq37PftAYxncp0UhpeHpqmkvSx4jITVc9UvL8qi3aMvsgqykCLmFowBTM5TLl59Xi1f5lsMwgxQlVNVhAplae5zERYRpbrBSd2zyHEW6DW8kho-hOCgmYgJqWf%3D%3D&timestamp=1789557605&x-secsdk-web-signature=c9d6805e979c789dbf0ff92443d09db0",
+    "ct": "application/json",
+    "status": 200
+  },
+  {
+    "url": "https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/uuu_265.mp4",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/5ceecb129a6b5a102db6f4c8b21a07c4/6aabcde4/video/tos/cn/tos-cn-vd-0026/ooIAABqAuWWDvBSLgACppfEfFAA9EAlyhS7MAR/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=57&bt=57&cs=4&mime_type=video_mp4&qs=15&rc=NDs4Omc6OWk1NzdpZjs6NEBpamU4NXM5cmo8ZDMzNGkzM0AuYmEvMmBhYmMxNGAwNjFhYSMxb20wMmQ0LV9hLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=100w_100o&dy_q=1789557605&l=20260916192005641AE54BA790107396AE",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/7ac0eaa5a7fce32c9d9f3ef15d768686/6aabcde4/video/tos/cn/tos-cn-vd-0026/ogHAWAfEBglKqASCMABB97ATAWRfFSAADyEpot/media-video-avc1/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=272&bt=272&cs=0&ds=3&mime_type=video_mp4&qs=1&rc=OzRpO2g1ZDtoPDc8M2llOkBpamU4NXM5cmo8ZDMzNGkzM0AyLV80X18vNV8xLi5jMl5gYSMxb20wMmQ0LV9hLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=100o_100w&dy_q=1789557605&l=20260916192005641AE54BA790107396AE",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/5ceecb129a6b5a102db6f4c8b21a07c4/6aabcde4/video/tos/cn/tos-cn-vd-0026/ooIAABqAuWWDvBSLgACppfEfFAA9EAlyhS7MAR/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=57&bt=57&cs=4&mime_type=video_mp4&qs=15&rc=NDs4Omc6OWk1NzdpZjs6NEBpamU4NXM5cmo8ZDMzNGkzM0AuYmEvMmBhYmMxNGAwNjFhYSMxb20wMmQ0LV9hLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=100w_100o&dy_q=1789557605&l=20260916192005641AE54BA790107396AE",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/5ceecb129a6b5a102db6f4c8b21a07c4/6aabcde4/video/tos/cn/tos-cn-vd-0026/ooIAABqAuWWDvBSLgACppfEfFAA9EAlyhS7MAR/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=57&bt=57&cs=4&mime_type=video_mp4&qs=15&rc=NDs4Omc6OWk1NzdpZjs6NEBpamU4NXM5cmo8ZDMzNGkzM0AuYmEvMmBhYmMxNGAwNjFhYSMxb20wMmQ0LV9hLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=100w_100o&dy_q=1789557605&l=20260916192005641AE54BA790107396AE",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/5ceecb129a6b5a102db6f4c8b21a07c4/6aabcde4/video/tos/cn/tos-cn-vd-0026/ooIAABqAuWWDvBSLgACppfEfFAA9EAlyhS7MAR/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=57&bt=57&cs=4&mime_type=video_mp4&qs=15&rc=NDs4Omc6OWk1NzdpZjs6NEBpamU4NXM5cmo8ZDMzNGkzM0AuYmEvMmBhYmMxNGAwNjFhYSMxb20wMmQ0LV9hLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=100w_100o&dy_q=1789557605&l=20260916192005641AE54BA790107396AE",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/7ac0eaa5a7fce32c9d9f3ef15d768686/6aabcde4/video/tos/cn/tos-cn-vd-0026/ogHAWAfEBglKqASCMABB97ATAWRfFSAADyEpot/media-video-avc1/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=272&bt=272&cs=0&ds=3&mime_type=video_mp4&qs=1&rc=OzRpO2g1ZDtoPDc8M2llOkBpamU4NXM5cmo8ZDMzNGkzM0AyLV80X18vNV8xLi5jMl5gYSMxb20wMmQ0LV9hLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=100o_100w&dy_q=1789557605&l=20260916192005641AE54BA790107396AE",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/7ac0eaa5a7fce32c9d9f3ef15d768686/6aabcde4/video/tos/cn/tos-cn-vd-0026/ogHAWAfEBglKqASCMABB97ATAWRfFSAADyEpot/media-video-avc1/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=272&bt=272&cs=0&ds=3&mime_type=video_mp4&qs=1&rc=OzRpO2g1ZDtoPDc8M2llOkBpamU4NXM5cmo8ZDMzNGkzM0AyLV80X18vNV8xLi5jMl5gYSMxb20wMmQ0LV9hLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=100o_100w&dy_q=1789557605&l=20260916192005641AE54BA790107396AE",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/7ac0eaa5a7fce32c9d9f3ef15d768686/6aabcde4/video/tos/cn/tos-cn-vd-0026/ogHAWAfEBglKqASCMABB97ATAWRfFSAADyEpot/media-video-avc1/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=272&bt=272&cs=0&ds=3&mime_type=video_mp4&qs=1&rc=OzRpO2g1ZDtoPDc8M2llOkBpamU4NXM5cmo8ZDMzNGkzM0AyLV80X18vNV8xLi5jMl5gYSMxb20wMmQ0LV9hLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=100o_100w&dy_q=1789557605&l=20260916192005641AE54BA790107396AE",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/5ceecb129a6b5a102db6f4c8b21a07c4/6aabcde4/video/tos/cn/tos-cn-vd-0026/ooIAABqAuWWDvBSLgACppfEfFAA9EAlyhS7MAR/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=57&bt=57&cs=4&mime_type=video_mp4&qs=15&rc=NDs4Omc6OWk1NzdpZjs6NEBpamU4NXM5cmo8ZDMzNGkzM0AuYmEvMmBhYmMxNGAwNjFhYSMxb20wMmQ0LV9hLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=100w_100o&dy_q=1789557605&l=20260916192005641AE54BA790107396AE",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/7ac0eaa5a7fce32c9d9f3ef15d768686/6aabcde4/video/tos/cn/tos-cn-vd-0026/ogHAWAfEBglKqASCMABB97ATAWRfFSAADyEpot/media-video-avc1/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=272&bt=272&cs=0&ds=3&mime_type=video_mp4&qs=1&rc=OzRpO2g1ZDtoPDc8M2llOkBpamU4NXM5cmo8ZDMzNGkzM0AyLV80X18vNV8xLi5jMl5gYSMxb20wMmQ0LV9hLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=100o_100w&dy_q=1789557605&l=20260916192005641AE54BA790107396AE",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://lf6-effectcdn-tos.byteeffecttos.com/obj/ies.fe.effect/73a925431aac3cf511e0fb73158c9be8.mp4",
+    "ct": "video/mp4",
+    "status": 200
+  },
+  {
+    "url": "https://lf3-effectcdn-tos.byteeffecttos.com/obj/ies.fe.effect/c6b2f994c3b532d088af631d1b6c09e3.mp4",
+    "ct": "video/mp4",
+    "status": 200
+  },
+  {
+    "url": "https://lf6-effectcdn-tos.byteeffecttos.com/obj/ies.fe.effect/73a925431aac3cf511e0fb73158c9be8.mp4",
+    "ct": "video/mp4",
+    "status": 200
+  },
+  {
+    "url": "https://lf3-effectcdn-tos.byteeffecttos.com/obj/ies.fe.effect/c6b2f994c3b532d088af631d1b6c09e3.mp4",
+    "ct": "video/mp4",
+    "status": 200
+  }
+]
