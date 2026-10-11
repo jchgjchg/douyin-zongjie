@@ -12,3 +12,7 @@ downloads/**/*.wav
 __pycache__/
 *.pyc
 .env
+
+# === 内部监听状态（folder watcher 临时文件，不入库） ===
+analysis/.watch_state.json
+analysis/.watch_state.json.bak-*
