@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/uuu_265.mp4",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/uuu_265.mp4",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/uuu_265.mp4",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://www.douyin.com/aweme/v1/web/aweme/detail/?device_platform=webapp&aid=6383&channel=channel_pc_web&aweme_id=7688944530455809306&request_source=600&origin_type=video_page&update_version_code=170400&pc_client_type=1&pc_libra_divert=Mac&support_h265=1&support_dash=0&cpu_core_num=14&version_code=190500&version_name=19.5.0&cookie_enabled=true&screen_width=1280&screen_height=800&browser_language=zh-CN&browser_platform=MacIntel&browser_name=Chrome&browser_version=152.0.0.0&browser_online=true&engine_name=Blink&engine_version=152.0.0.0&os_name=Mac%20OS&os_version=10.15.7&device_memory=32&platform=PC&downlink=1.75&effective_type=4g&round_trip_time=150&webid=7690152134582568457&uifid=a9feeece8bad9a3ec4489a53034d3a9cea9eedcaf883b88008ea0decba55736a6141bff0a18e1b624984c81100b71fa011ce9498cfc8db6216e28bb48c61b2dcbd9cf02284b3f5e25cbdb7a25df195efa6abe9d2cfbbe3c463ea495df65892b791b39abc2875346f38f40013dda858aa77fb1f5321e01bc277501bb10bbf2480241e2b06b117a2152ed1866acf50ddd49f8fcccb60b9ae81146e616a6611bdc072608c6e1d860a5eae4d3ba1e0f6c582ecfcdcf6f8eb3486be4a4b6b4bc016e6&verifyFp=verify_mtrbrkkz_TU1Bvkfy_sz4I_4j8w_8RFA_Z6Q827QPWDVs&fp=verify_mtrbrkkz_TU1Bvkfy_sz4I_4j8w_8RFA_Z6Q827QPWDVs&a_bogus=mf05hzUjmxAbedMSmKasHjqUitjArBuyKMTdRNCTCPuyLZlYFWPf0rtFaxoX4o2jx8p0hH17TftlbEncZ4U0p9HpLmpvSD7SLs5c9g6o%2FqNpPMksErSwCu0FqwBGMcGLlQCtiIvR1sML6D5lIqVkAQ5GS5zJRQRpbHpRdMTySEWgfCukio-wOHhsi6kqVf%3D%3D&timestamp=1790503078&x-secsdk-web-signature=b5773b0f16ab4b7fbf93771394ec5c07",
+    "ct": "application/json",
+    "status": 200
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/19d726e388f8743aca72baa44581df97/6aba4229/video/tos/cn/tos-cn-ve-15/oICBw8GzLAUnai1lA7jcACgBToeIgGAeAVTezI/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=189&bt=189&cs=4&mime_type=video_mp4&qs=0&rc=PDhkOjxpZ2hmPDw0ZTo1Z0BpM250aXQ5cjc8ZDMzNGkzM0BgL2AyYjNeY14zYV8wXzFiYSNiLW8vMmRzcG5hLS1kLTBzcw%3D%3D&btag=c0000e00038000&cquery=100o_100w&dy_q=1790503079&l=20260927175758FB3F541ADFA5B7CEC1AB",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/9eea853d13a974fc6641dafd4a6b1780/6aba4229/video/tos/cn/tos-cn-vd-0026/oUTB4eTrAAf7GcAAA9oIAnCGOBaLRMzeVowTAF/media-video-avc1/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=540&bt=540&cs=0&ds=3&mime_type=video_mp4&qs=1&rc=OGY5ZDZoZjlmZzk1Zjc1OUBpM250aXQ5cjc8ZDMzNGkzM0AtYjEwMzAxNS0xLS5jYTYzYSNiLW8vMmRzcG5hLS1kLTBzcw%3D%3D&btag=c0000e00038000&cquery=100w_100o&dy_q=1790503079&l=20260927175758FB3F541ADFA5B7CEC1AB",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/19d726e388f8743aca72baa44581df97/6aba4229/video/tos/cn/tos-cn-ve-15/oICBw8GzLAUnai1lA7jcACgBToeIgGAeAVTezI/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=189&bt=189&cs=4&mime_type=video_mp4&qs=0&rc=PDhkOjxpZ2hmPDw0ZTo1Z0BpM250aXQ5cjc8ZDMzNGkzM0BgL2AyYjNeY14zYV8wXzFiYSNiLW8vMmRzcG5hLS1kLTBzcw%3D%3D&btag=c0000e00038000&cquery=100o_100w&dy_q=1790503079&l=20260927175758FB3F541ADFA5B7CEC1AB",
+    "ct": "video/mp4",
+    "status": 206
+  },
+  {
+    "url": "https://v11-weba.douyinvod.com/9eea853d13a974fc6641dafd4a6b1780/6aba4229/video/tos/cn/tos-cn-vd-0026/oUTB4eTrAAf7GcAAA9oIAnCGOBaLRMzeVowTAF/media-video-avc1/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=540&bt=540&cs=0&ds=3&mime_type=video_mp4&qs=1&rc=OGY5ZDZoZjlmZzk1Zjc1OUBpM250aXQ5cjc8ZDMzNGkzM0AtYjEwMzAxNS0xLS5jYTYzYSNiLW8vMmRzcG5hLS1kLTBzcw%3D%3D&btag=c0000e00038000&cquery=100w_100o&dy_q=1790503079&l=20260927175758FB3F541ADFA5B7CEC1AB",
+    "ct": "video/mp4",
+    "status": 206
+  }
+]
